@@ -4,7 +4,7 @@
   "description": "CLI tool for building bpanel plugins",
   "main": "index.js",
   "scripts": {
-    "babel": "babel lib -d dist && cp lib/indexTemplate.txt dist/",
+    "babel": "babel lib -d dist",
     "clean": "rm -f ./dist/*.js",
     "prepublish": "make babel",
     "watch": "npm run babel -- --watch",
