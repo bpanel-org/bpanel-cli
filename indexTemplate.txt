@@ -1,6 +1,14 @@
+
+/* START IMPORTS */
+/* END IMPORTS */
+
+/* START EXPORTS */
+
 export const metadata = {
   name: '<%= name %>',
   author: '<%= author %>',
   description: '<% description %>',
   version: require('../package.json').version
 };
+
+/* END EXPORTS */
