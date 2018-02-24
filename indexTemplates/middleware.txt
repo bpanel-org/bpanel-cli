@@ -1,0 +1,12 @@
+
+// custom middleware for our plugin. This gets
+// added to the list of middlewares in the app's store creator
+// Use this to intercept and act on dispatched actions
+// e.g. for responding to socket events
+export const middleware = ({ dispatch, getState }) => next => action => {
+  const { type } = action;
+  // if (type === 'MY_ACTION') {
+  //  dispatch(myAction());
+  // }
+  return next(action);
+};

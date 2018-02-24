@@ -1,0 +1,27 @@
+// a decorator for the Panel container component in our app
+// here we're extending the Panel's children by adding
+// our plugin's component (`MyComponent` below)
+// You'll want to make sure to import an actual component
+// This is what you need if you're making a new view/route
+export const decoratePanel = (Panel, { React, PropTypes }) => {
+  return class extends React.Component {
+    static displayName() {
+      return metadata.name;
+    }
+
+    render() {
+      const { customChildren = [] } = this.props;
+      // const routeData = {
+      //   name: metadata.name,
+      //   Component: MyComponent
+      // };
+      return (
+        <Panel
+          {...this.props}
+          customChildren={customChildren}
+          // customChildren={customChildren.concat(routeData)}
+        />
+      );
+    }
+  };
+};

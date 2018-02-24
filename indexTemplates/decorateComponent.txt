@@ -1,0 +1,27 @@
+// Decorate a target component (e.g. Footer, Header, Sidebar)
+export const decorate<%= targetComponent %> = (<%= targetComponent %>, { React, PropTypes }) => {
+  return class extends React.PureComponent {
+    static displayName() {
+      return metadata.name;
+    }
+
+    static get propTypes() {
+      return {
+        customChildren: PropTypes.node
+      };
+    }
+
+    render() {
+      const { customChildren: existingCustomChildren } = this.props;
+      const progressPercentage = progress * 100;
+
+      const customChildren = (
+        <div className="container">
+          {existingCustomChildren}
+        </div>
+      );
+
+      return <<%= targetComponent %> {...this.props} customChildren={customChildren} />;
+    }
+  };
+};

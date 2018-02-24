@@ -1,0 +1,13 @@
+
+// Tells the decorator what our plugin needs from the state
+// This is available for container components that use an
+// extended version of react-redux's connect to connect
+// a container to the state and retrieve props
+// make sure to replace the corresponding state mapping
+// (e.g. `state.chain.height`) and prop names
+export const mapComponentState = {
+  // <%= targetComponent %>: (state, map) =>
+  //   Object.assign(map, {
+  //     localProp: state.childState.stateProp,
+  //   })
+};

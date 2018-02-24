@@ -1,0 +1,14 @@
+// add new socket listeners
+// push an object with event and actionType properties
+// onto existing array of listeners
+export const addSocketConstants = (sockets = { listeners: [] }) => {
+  sockets.listeners.push(
+    // {
+    //   event: '',
+    //   actionType: 'ACTION_CONSTANT'
+    // }
+  );
+  return Object.assign(sockets, {
+    socketListeners: sockets.listeners
+  });
+};

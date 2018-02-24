@@ -1,0 +1,8 @@
+// This connects your plugin's component to the state's dispatcher
+// Make sure to pass in an actual action to the dispatcher
+export const mapComponentDispatch = {
+  // <%= targetComponent %>: (dispatch, map) =>
+  //   Object.assign(map, {
+  //     actionCreator: () => dispatch(actionCreator())
+  //   })
+};
