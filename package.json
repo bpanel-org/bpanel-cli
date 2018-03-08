@@ -1,6 +1,6 @@
 {
   "name": "bpanel-cli",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "CLI tool for building bpanel plugins",
   "main": "index.js",
   "scripts": {
