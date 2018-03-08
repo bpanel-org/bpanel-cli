@@ -2,9 +2,10 @@
   "name": "chain-sockets",
   "version": "0.0.1",
   "description": "chain sockets for bpanel",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "babel": "babel lib -d dist",
+    "watch": "babel lib -d dist --watch",
     "clean": "rm -f ./dist/*.js",
     "lint": "eslint lib/ test/ || exit 0",
     "prepublish": "make babel",

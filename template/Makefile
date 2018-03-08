@@ -7,6 +7,9 @@ babel:
 browserify:
 	@npm run browserify
 
+watch:
+	@npm run watch
+
 webpack:
 	@npm run webpack
 

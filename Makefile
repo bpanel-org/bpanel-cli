@@ -10,6 +10,9 @@ browserify:
 webpack:
 	@npm run webpack
 
+watch:
+	@npm run watch
+
 clean:
 	@npm run clean
 
