@@ -1,6 +1,6 @@
 .git*
 bench/
 docs/
-test/
+/test
 npm-debug.log
-lib/
+/lib
