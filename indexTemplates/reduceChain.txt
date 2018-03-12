@@ -1,0 +1,19 @@
+// decorator for the chain reducer
+// this will extend the current chain reducer
+// make sure to replace out the constants
+// and prop names with your actual targets
+// NOTE: state uses `seamless-immutable` to ensure immutability
+// See their API Docs for more details (e.g. `set`)
+// https://www.npmjs.com/package/seamless-immutable
+export const reduceChain = (state, action) => {
+  const { type, payload } = action;
+  switch (type) {
+    // case 'ACTION_CONSTANT': {
+    //   return state.set('testProp', payload);
+    //   break;
+    // }
+
+    default:
+      return state;
+  }
+};
