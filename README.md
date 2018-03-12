@@ -3,7 +3,7 @@ A simple CLI utility for use with bpanel
 
 ## Installation
 ```
-npm install -g bpanel-cli
+npm install -g @bpanel/bpanel-cli
 ```
 
 ## Usage

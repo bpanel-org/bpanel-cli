@@ -1,5 +1,5 @@
 {
-  "name": "bpanel-cli",
+  "name": "@bpanel/bpanel-cli",
   "version": "0.2.1",
   "description": "CLI tool for building bpanel plugins",
   "main": "index.js",
