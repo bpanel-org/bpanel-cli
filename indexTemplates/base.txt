@@ -7,7 +7,7 @@
 export const metadata = {
   name: '<%= name %>',
   author: '<%= author %>',
-  description: '<% description %>',
+  description: '<%= description %>',
   version: require('../package.json').version
 };
 

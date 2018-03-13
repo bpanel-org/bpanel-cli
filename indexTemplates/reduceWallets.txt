@@ -1,11 +1,11 @@
-// decorator for the node reducer
-// this will extend the current node reducer
+// decorator for the wallets reducer
+// this will extend the current wallets reducer
 // make sure to replace the constants
 // and prop names with your actual targets
 // NOTE: state uses `seamless-immutable` to ensure immutability
 // See their API Docs for more details (e.g. `set`)
 // https://www.npmjs.com/package/seamless-immutable
-export const reduceNode = (state, action) => {
+export const reduceWallets = (state, action) => {
   const { type, payload } = action;
   switch (type) {
     // case 'ACTION_CONSTANT': {
