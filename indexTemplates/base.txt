@@ -6,6 +6,8 @@
 
 export const metadata = {
   name: '<%= name %>',
+  pathName: '<%= path %>',
+  displayName: '<%= displayName %>',
   author: '<%= author %>',
   description: '<%= description %>',
   version: require('../package.json').version

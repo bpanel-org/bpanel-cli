@@ -29,7 +29,8 @@
     "fs-extra": "^5.0.0",
     "inquirer": "^5.1.0",
     "semver": "^5.5.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "validate-npm-package-name": "^3.0.0"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
