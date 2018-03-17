@@ -21,9 +21,11 @@ This means that when you're happy with your plugin and want to share it with the
 
 Most of the questions are self-explanatory, but if this is your first time creating a bPanel plugin some additional information might be helpful.
 
-### `name`
-This will serve as the name of your directory and the name of your plugin on npm.
+### Names
+The first question is about primary name of your plugin. This will set the name of your directory and the name of your plugin on npm.
 Because npm uses package names in the registry's url, only url friendly names can be used. We use [`validate-npm-package-name`](https://www.npmjs.com/package/validate-npm-package-name) to validate names, so you can see their readme for specific rules. If there's anything wrong, you will be asked to pick a new name. **This does not check for the existence of an npm package with the same name**, so double check this on your own first.
+
+You can learn more about plugin names [here](http://bcoin.io/bpanel-docs/docs/api-metadata.html#details.
 
 ### Dependency Check
 The question "Will your plugin depend on any other published bPanel plugins" has to do with whether you will be bundling or requiring any other bPanel compliant plugins (i.e. they must follow the [API rules](http://bcoin.io/bpanel-docs/docs/plugin-started.html#the-plugin-api)). You can read more about plugin bundling [here](http://bcoin.io/bpanel-docs/docs/api-bundling-plugins.html).
@@ -42,6 +44,7 @@ You can read more about making a theme in bPanel [here](http://bcoin.io/bpanel-d
 ### Additional Modules
 By default, `bpanel-cli` will only expose the `metadata` export from the entry point of your app. If you have a good idea of what you want to start building, you can choose "y" to the question of _"Would you like to add any additional module templates"_.
 This will mock out in your `lib/index.js` what these modules should look like.
+
 Scroll through the options with your arrow keys (or vim navigation), select with the space bar, and press enter when you're done.
 
 If any of the modules selected need to specify a component
