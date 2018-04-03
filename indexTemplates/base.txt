@@ -6,7 +6,7 @@
 
 export const metadata = {
   name: '<%= name %>',
-  pathName: '<%= path %>',
+  pathName: '<%= pathName %>',
   displayName: '<%= displayName %>',
   author: '<%= author %>',
   description: '<%= description %>',
