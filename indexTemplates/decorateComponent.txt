@@ -13,7 +13,6 @@ export const decorate<%= targetComponent %> = (<%= targetComponent %>, { React, 
 
     render() {
       const { customChildren: existingCustomChildren } = this.props;
-      const progressPercentage = progress * 100;
 
       const customChildren = (
         <div className="container">
