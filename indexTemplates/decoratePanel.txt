@@ -12,13 +12,13 @@ export const decoratePanel = (Panel, { React, PropTypes }) => {
     render() {
       const { customChildren = [] } = this.props;
       // const routeData = {
-      //   name: metadata.name,
+      //   metadata,
       //   Component: MyComponent
       // };
       return (
         <Panel
           {...this.props}
-          customChildren={customChildren}
+          // uncomment when routeData is set
           // customChildren={customChildren.concat(routeData)}
         />
       );
