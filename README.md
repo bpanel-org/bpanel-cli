@@ -15,10 +15,11 @@ $bpanel-cli --help
 
 Currently supports:
 
-- `create` | `c`: create a plugin boilerplate project for local development
-- `install` | `i`: install a new plugin to your local bPanel
-- `uninstall` | `u`: uninstall a plugin from your local bPanel
-- `search` | `s`: search available plugins you can install with `bpanel-cli i`
+- `create` / `c`: create a plugin boilerplate project for local development
+- `list` / `l`: list all currently installed plugins
+- `install` / `i`: install a new plugin to your local bPanel
+- `uninstall` / `u`: uninstall a plugin from your local bPanel
+- `search` / `s`: search available plugins you can install with `bpanel-cli i`
 
 ## Create a Plugin Boilerplate
 The `create` command will walk you through the steps to create a plugin boilerplate.
