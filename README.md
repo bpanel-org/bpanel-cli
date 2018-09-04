@@ -6,6 +6,20 @@ A simple CLI utility for use with bpanel
 npm install -g @bpanel/bpanel-cli
 ```
 
+## Usage
+Passing no arguments, or `--help`, will return the help menu.
+
+```bash
+$bpanel-cli --help
+```
+
+Currently supports:
+
+- `create` | `c`: create a plugin boilerplate project for local development
+- `install` | `i`: install a new plugin to your local bPanel
+- `uninstall` | `u`: uninstall a plugin from your local bPanel
+- `search` | `s`: search available plugins you can install with `bpanel-cli i`
+
 ## Create a Plugin Boilerplate
 The `create` command will walk you through the steps to create a plugin boilerplate.
 
@@ -33,7 +47,7 @@ The question "Will your plugin depend on any other published bPanel plugins" has
 To see what plugins are available to be bundled run the following in another terminal:
 
 ```bash
-npm search bpanel
+$ bpanel-cli search
 ```
 
 This will search the npm registry for any plugins tagged with the `bpanel` keyword (all plugins created with `bpanel-cli` will automatically add this keyword).
