@@ -10,7 +10,7 @@
     "watch": "npm run babel -- --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git@github.com:bpanel-org/bmoon-theme.git",
+  "repository": "git@github.com:bpanel-org/bpanel-cli.git",
   "keywords": [
     "cli",
     "bpanel",

@@ -13,7 +13,8 @@
   },
   "keywords": [
     "bpanel",
-    "bcoin"
+    "bcoin",
+    "plugin"
   ],
   "author": "bcoin-org",
   "license": "MIT",
